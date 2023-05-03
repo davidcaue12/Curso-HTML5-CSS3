@@ -1,0 +1,41 @@
+/* A tag float faz com q o elemento em que ela é proposta,saia do seu contexto original e crie um novo contexto */
+/* O float nunca irá esconder o conteúdo em que nela está localizado,ela sempre arrumará um jeito para expô-lo */
+/* Um comportamento bem interessante do float é que,se suas propriadades estiver do lado do outro,e você colocar ela maior do que a largura do pai,ele automanticamente irá cair,e assim ficar um abaixo do outro */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article{
+    background-color: green;
+}
+
+p{
+    clear: both;
+    /* O clear limpa o contexto de um elemento que está flutuando logo após a ele,fazendo ele não ficar ao lado proposto do elemento que esta flutuando; */
+}
+
+.example_first{
+    
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /* Utilizando o float right,nossa div irá flutuar a direita obviamente */
+    float: right;     
+}
+
+.example_two{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    /* Utilizando o float left ele flutuará a direita,claro que existe outras posições para o float,obviamente; */
+    float: left;
+}
+
+
+.example{
+    line-height: 200px;
+    /* O line height indica a altura em que a linha irá ocupar,no contexto atual,ele faz ela ficar centralizada verticalmente; */
+    text-align: center;
+}
