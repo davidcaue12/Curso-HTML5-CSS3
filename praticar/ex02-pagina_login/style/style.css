@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: var(--Font-standart);
+}
+
+/* Color for design of this site */
+:root{
+    --bg-color-body:#08678C;
+    --bg-color-body2:#074973;
+    --bg-color-card:#032859;
+    --bg-color-card2:#011126;
+
+    /* Font-color and font-family */
+    --font-color:#D9DADA;
+    --Font-standart:'Poppins',Sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(../images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg) center/cover no-repeat;
+    color: var(--font-color);
+}
+
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    margin-left: 3em;
+}
+
+#lupa{
+    position: absolute;
+    right: 1.7em;
+    top: 1.6em;
+    cursor: pointer;
+}
+
+.links > a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+.search-input{
+    display: flex;
+    margin: 20px;
+}
+
+.search-input input{
+    height: 30px;
+    background: transparent;
+    color: var(--font-color);
+    border-radius:4px;
+    padding: 5px;
+    outline: none;
+}
+
+main{
+    display: flex;
+    height: 82vh;
+    padding: 0px 40px 40px 40px;
+    
+}
+
+.container_card{
+    display: flex;
+    height: 550px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,var(--bg-color-card),var(--bg-color-card2)50%);
+    max-width: 1180px;
+    min-width: 600px;
+    margin: auto;
+    position: relative;
+    box-shadow: 4px 2px 20px 6px rgba(0, 0, 0, 0.774);
+}
+
+.container_card_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 0px 30px;
+}
+
+.container_card_left h1{
+    font-size: 3em;
+    font-weight: 900;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.432);
+}
+
+.social_buttons{
+    display: flex;
+    gap: 2.5em;
+    position: absolute;
+    bottom: 5em;
+    left: 6em;
+}
+
+.fa-brands{
+    font-size: 2em;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.fa-facebook:hover{
+    color: rgb(6, 6, 223);
+    
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+
+.fa-youtube:hover{
+    color: #ff0000;
+}
+
+.fa-instagram:hover{
+    color: #c13584;
+}
+
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+}
+
+.container_card_right{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_form{
+    width: 50vw;
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+    padding: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form h2{
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+}
+
+.input_form{
+    background: transparent;
+    color: var(--font-color);
+    border: none;
+    padding: 1em;
+    margin: 10px;  
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.forget_remenber{
+    display: flex;
+    gap: 10px;
+    margin: 5px 10px 10px;
+}
+
+
+#btn_login{
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    color: var(--font-color);
+    background-color: #ffffff05;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Sign_Up a{
+    text-decoration: none;
+    color: var(--font-color);
+    text-decoration: underline;
+}
+
+@media screen and (width = 780px){
+    body{
+        height: 120vh;
+    }
+}
+
+@media screen and (width <= 780px){
+    .social_buttons{
+        left: 10em;
+    }
+    
+    .fa-brands{
+        font-size: 1.5em;
+    }
+
+    .search-input{
+        display: none;
+    }
+
+    body{
+      height: 170vh;
+    }
+
+    .container_card{
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+        align-items: center;
+        max-height: 120vh;
+    }
+}
+
+@media screen and (width < 414px){
+    .container_card{
+        height:180vh;
+        max-height: none;
+        margin-right: 200px;
+    }
+
+    body{
+        height: 200vh;
+    }
+}
