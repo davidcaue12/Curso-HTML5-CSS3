@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button type="button" onclick="document.getElementById('teste').innerHTML = Date()">click em mim para aparecer a data</button>
+
+
+    <p id="teste"></p>
+
+
+    <script>
+        let nome = prompt('qual seu nome?')
+        let idade = prompt('qual sua idade')
+
+        if(idade < 18){
+            document.write(`Olá ${nome} você tem ${idade} ainda é de menor,seu nome tem o total de ${nome.length} letras,e seu nome em maiusculas é ${nome.toLocaleUpperCase()} e seu nome em minusculo é ${nome.toLowerCase()}`)
+        } 
+        else{
+            document.write(`Olá ${nome} você tem ${idade} já é de maior,seu nome tem o total de ${nome.length} letras,e seu nome em maiusculas é ${nome.toLocaleUpperCase()} e seu nome em minusculo é ${nome.toLowerCase()}`)
+        }
+    </script>
+</body>
+</html>
