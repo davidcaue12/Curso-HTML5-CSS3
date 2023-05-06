@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font_padrão: 'Poppins';
+}
+
+body{
+    height: 100vh;
+    background: url(../images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg) center/cover no-repeat;
+    color: #f3e6e6;
+    font-family: var(--font_padrão);
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+}
+
+.left_container{
+    display: flex;
+    height: 90vh;
+    width: 50vw;
+    flex-direction: column;
+}
+
+.left_container h1{
+    display: block;
+    font-size: 3em;
+}
+
+.right_container{
+    display: flex;
+    width: 50vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box_form{
+    height: 60vh;
+    width: 20vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
