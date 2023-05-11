@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn{
+            margin: 10px;
+            width: 200px;
+
+        }
+        div{
+            border: 1px solid black;
+            width: 200px;
+            text-align: center;
+            font-size: 2em;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Somador de resultados</h1>
+    <input type="number" id="num01" class="btn">
+    <input type="number" id="num02" class="btn">
+    <button onclick="somar()" class="btn">Somar</button>
+
+    <div id="result"></div>
+
+
+    <script>
+        function somar(){
+            var num1 = document.querySelector('#num01')
+            var num2 = document.querySelector('#num02')
+            var resul = document.querySelector('#result')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var s = n1 + n2
+
+            resul.innerHTML = `${n1} + ${n2} = ${s}`
+
+        }
+    </script>
+</body>
+</html>
