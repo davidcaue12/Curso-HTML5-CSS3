@@ -9,35 +9,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <i class="fa-solid fa-c"></i>
-        </div>
-            <ul class="links">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-    </header>
-
-    <main>
-        <div class="principal">
-            <h1>WE ARE <span id="marcacao">CREATIVE</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reprehenderit itaque impedit repudiandae sapie</p>
-
-            <div class="btn">
-                <button type="submit" class="btn1">
-                    <a href="#" class="lk" >CONTACT US</a>
-                </button>
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-c"></i>
             </div>
-        </div>
-    </main>
-
-
-    <script>
-        //Mudar a cor do botão contact us
+                <ul class="links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+        </header>
+        <main>
+            <div class="principal">
+                <h1>WE ARE <span id="marcacao">CREATIVE</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reprehenderit itaque impedit repudiandae sapie</p>
+                <div class="btn">
+                    <button type="submit" class="btn1">
+                        <a href="#" class="lk" >CONTACT US</a>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <script>
+            //Mudar a cor do botão contact us
             let btn = document.querySelector('.btn1')
             let link = document.querySelector('.lk')
             //eventlistener do botão e link
@@ -45,30 +41,26 @@
             link.addEventListener('mouseenter',cor)
             btn.addEventListener('mouseout',cor1)
             link.addEventListener('mouseout',cor1)
-        function cor(){
-            link.style.color = 'black'
-            btn.style.background = 'white'
-        }
-        function cor1(){
-            link.style.color = 'white'
-            btn.style.background = 'transparent'
-        }
-
-        //mudar cor Logo
-        let logo = document.querySelector('.fa-solid')
-        logo.addEventListener('mouseenter',cor_logo)
-        logo.addEventListener('mouseout',reset_cor)
-        function cor_logo(){
-            logo.style.background = 'white'
-            logo.style.color = 'black'
-        }
-        function reset_cor(){
-            logo.style.background = 'transparent'
-            logo.style.color = 'white'
-        }
-
-
-
-    </script>
+            function cor(){
+                link.style.color = 'black'
+                btn.style.background = 'white'
+            }
+            function cor1(){
+                link.style.color = 'white'
+                btn.style.background = 'transparent'
+            }
+            //mudar cor Logo
+            let logo = document.querySelector('.fa-solid')
+            logo.addEventListener('mouseenter',cor_logo)
+            logo.addEventListener('mouseout',reset_cor)
+            function cor_logo(){
+                logo.style.background = 'white'
+                logo.style.color = 'black'
+            }
+            function reset_cor(){
+                logo.style.background = 'transparent'
+                logo.style.color = 'white'
+            }
+        </script>
 </body>
 </html>

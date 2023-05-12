@@ -19,6 +19,7 @@ body{
     height: 100vh;
     background: url(../images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg) center/cover no-repeat;
     color: var(--font-color);
+    overflow: hidden;
 }
 
 header{
@@ -78,6 +79,17 @@ main{
     margin: auto;
     position: relative;
     box-shadow: 4px 2px 20px 6px rgba(0, 0, 0, 0.774);
+    animation: entrada 2s ease-out;
+}
+
+@keyframes entrada {
+    100%{
+        transform: translateY(0);
+    }
+
+    0%{
+        transform: translateY(100%);
+    }
 }
 
 .container_card_left{

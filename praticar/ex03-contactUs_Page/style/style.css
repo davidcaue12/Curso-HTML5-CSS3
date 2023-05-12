@@ -11,6 +11,17 @@
     color: white;
     height: 100vh;
     background: url(../images/visao-turva-cidade.jpg) center/cover no-repeat;
+    animation: slide-in 2s ease-out;
+ }
+
+
+ @keyframes slide-in {
+   0% {
+     transform: translateY(-100%);
+   }
+   100% {
+     transform: translateY(0);
+   }
  }
 
  header{
