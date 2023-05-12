@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    color: white;
+    height: 100vh;
+    background: url(../images/visao-turva-cidade.jpg) center/cover no-repeat;
+ }
+
+ header{
+    display: flex;
+    height: 16%;
+    justify-content: space-between;
+ }
+
+.logo{
+    font-size: 3em;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.logo i{
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 3em;
+    margin-top: 2em;
+    margin-right: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    transition: 0.2s all ease-in-out;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+ main{
+    height: 84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.principal{
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .principal > h1{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.685);
+ }
+
+ #marcacao{
+    color: #1D16F2;
+ }
+
+ p{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.753);
+    margin-left: 16%;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width:70%;
+ }
+
+ .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+ }
+
+ .btn > button{
+    display: flex;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border:3px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
+    cursor: pointer;
+ }
+
+ .btn a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+ }
