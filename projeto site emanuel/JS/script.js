@@ -1,1 +1,0 @@
-alert('BEM VINDO A MINHA PÁGINA!!')
