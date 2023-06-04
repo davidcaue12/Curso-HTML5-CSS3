@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20200809/pngtree-back-to-school-background-and-pencils-image_389864.jpg) center/cover no-repeat;
+}
+main{
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.692);
+}
+
+.txt > h1{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.txt-center{
+    text-align: center;
+    display: block;
+}
+
+.txt-bottom{
+    margin-top: 20px;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    color: #f1f1f1;
+}
+
+.contatos{
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.contatos > span{
+    font-size: 0.9em;
+}
+
+.whats{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(4, 194, 4);
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+.whats > a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: lighter;
+}
+
+.direitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.privacidade{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+.privacidade > a{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #f1f1f1;
+}
+
+
