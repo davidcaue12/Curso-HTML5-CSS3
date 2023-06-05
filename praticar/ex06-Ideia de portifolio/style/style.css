@@ -91,27 +91,7 @@ body{
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SEGUNDA PAGINA DO SITE/ABOUT */
 
 #bg-02{
     background: url(../assets/images/Bg-image02.jpg) center/cover no-repeat;
@@ -156,7 +136,7 @@ nav ul{
 .about-text{
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
+    margin-left: 6rem;
 }
 
 .about-text > h1{
@@ -171,7 +151,8 @@ nav ul{
     display: flex;
     text-align: justify;
     align-items: center;
-    padding: 2rem;
+    padding: 5rem;
+    
     
 }
 
@@ -192,12 +173,19 @@ nav ul{
 .info{
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
+    padding-left: 20%;
+    text-align: center;
 }
 
 .full-screen{
     padding: 2rem;
     font-size: 1.6rem;
+}
+
+@media screen and (max-width:550px){
+    .number{
+        display: none;
+    }
 }
 
 
