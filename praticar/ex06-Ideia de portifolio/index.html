@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,17 +21,35 @@
                 <div class="contato">
                     <span class="number">88-996539399</span>
                 </div>
+                
+                <div class="mobile-icon">
+                    <i class="fa-solid fa-bars" onclick="clicou()"></i>
+                </div>
+
+                <div class="menu-mobile">
+                    <ul class="links-mobile" aria-expanded="true">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#bg-02">About</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Portfólio</a></li>
+                        <span id="number">Contato: 88-996539399</span>
+                    </ul>
+
+                    <i class="fa-solid fa-x" onclick="fechar()"></i>
+                </div>
             </nav>
         </header>
 
         <main>
             <div class="principal">
-                <h2>DAVID</h2>
-                <h1 id="destaque">CAUÊ</h1>
-                <span>Web Developer</span>
-                <div class="btns">
-                    <button><a href="#">Resume</a></button>
-                    <button><a href="#">Portfólio</a></button>
+                <div class="name">
+                    <h2>DAVID</h2>
+                    <h1 id="destaque">CAUÊ</h1>
+                    <span>Web Developer</span>
+                </div>
+                <div class="btns" aria-expanded="true">
+                    <a href="#">Resume</a>
+                    <a href="#">Portfólio</a>
                 </div>
             </div>
         </main>
@@ -50,7 +68,7 @@
 
 
 
-    <div id="bg-02">
+    <!-- <div id="bg-02">
         <header>
             <nav>
                 <ul class="nav-links">
@@ -93,6 +111,9 @@
                 </div>
             </footer>
         </main>
-    </div> 
+    </div>  -->
+
+
+    <script src="script/index.js"></script>
 </body>
 </html>
