@@ -56,13 +56,17 @@ section{
     font-size: 2em;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .imagem1 p,.imagem2 p{
     background-color: rgba(0, 0, 0, 0.253);
     width: 15em;
     color: white;
     padding: 10px;
     border-radius: 20px;
-    
+    text-shadow: 1px 1px 0px black ;
 }
 
 .normal{
@@ -73,6 +77,7 @@ section{
 .imagem1{
     background:url(../images/background001.jpg) center/cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
 }
 
 .imagem2{
