@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../image/pexels-pixabay-531880.jpg) center/cover no-repeat;
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+}
+
+.links-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 120px;
+    padding: 10px;
+}
+
+#links-desktop{
+    display: flex;
+    list-style: none;
+    padding: 1rem 5rem 0rem 0rem;
+    gap: 2rem;
+    color: white;
+}
+
+#links-desktop a{
+    color: white;
+    text-decoration: none;
+    transition:0.4s all;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    backdrop-filter: blur(10px);
+}
+
+#links-desktop a:hover{
+    display: block;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto{
+    width: 500px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    padding: 35px;
+    overflow: hidden;
+    
+}
+
+.projeto:hover .text{
+    top: 0;
+}
+
+.text h1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.text{
+    position: relative;
+    top: 250px;
+    transition: 1s all;
+}
+
+@media (max-width:580px) {
+    
+}
