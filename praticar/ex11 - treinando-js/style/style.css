@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background: url(../image/Bg-image02.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero{
+    background-color: rgb(223, 223, 233);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calc{
+    height: 250px;
+    width: 250px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin: 20px;
+}
+
+#operar{
+    padding: 10px;
+    font-weight: bolder
+}
+
+#res{
+    width: max-content;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 2rem;
+    text-align: center;
+}
+

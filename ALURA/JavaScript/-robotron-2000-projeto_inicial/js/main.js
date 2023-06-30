@@ -1,8 +1,17 @@
-const robotron = document.querySelector('#robotron')
 
-robotron.addEventListener('click',dizoi)
+const subtrair = document.querySelector('#subtrair')
+const somar = document.querySelector('#somar')
+const braco = document.querySelector('#braco')
+const controle = document.querySelectorAll('.controle-ajuste')
 
+somar.addEventListener('click',() => {manipulaDados('somar')})
 
-function dizoi(){
-    console.log('oi')
+subtrair.addEventListener('click', () => {manipulaDados('subtrair')})
+
+function manipulaDados(operacao){
+    if(operacao === 'subtrair'){
+        braco.value = Number(braco.value) - 1
+    }else{
+        braco.value = Number(braco.value) + 1
+    }
 }
