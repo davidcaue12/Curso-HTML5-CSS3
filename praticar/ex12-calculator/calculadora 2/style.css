@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to bottom,#127369,#10403B) ;
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #4C5958;
+    padding: 25px;
+    height: 500px;
+    width:400px;
+    color:#BFBFBF;
+    border-radius: 25px;
+    box-shadow: 2px 6px 4px black;
+
+}
+
+#calculadora h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    width: 50%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #8AA6A3;
+    outline: none;
+}
+
+#calcular{
+    margin: auto;
+    display: flex;
+    padding: 8px 20px;
+    border: none;
+    background: transparent;
+    border: 2px solid #8AA6A3;
+    border-radius: 5px;
+    color:#BFBFBF;
+    cursor: pointer;
+}
+
+#res{
+    width: 100%;
+    height: 200px;
+    background-color: #BFBFBF;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+    color: black;
+    border-radius: 10px;
+}
+
