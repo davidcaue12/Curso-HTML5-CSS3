@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino de array</title>
+</head>
+<body>
+    <h1 id="num">
+
+    </h1>
+
+
+    <script>
+        let num = ['Carro','Moto','Bicicleta']
+        let text = document.querySelector('#num')
+        text.innerHTML = num
+        num.splice(0,0)
+        num.pop()
+        num.unshift('text')
+        num.shift()
+        num.push('My egg')
+
+        text.innerHTML = num
+    </script>
+</body>
+</html>

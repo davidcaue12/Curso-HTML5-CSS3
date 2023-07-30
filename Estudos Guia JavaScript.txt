@@ -1,0 +1,16 @@
+------------------------------------------MAPA DE ESTUDOS PARA JAVASCRIPT-------------------------------------------
+
+
+-> FUNCTIONS
+
+-> OBJETOS
+
+-> MODULARIZAÇÃO
+
+-> RegEx (EXPRESSÕES REGULARES)
+
+-> JSON
+
+-> AJAX
+
+-> NODEJS
