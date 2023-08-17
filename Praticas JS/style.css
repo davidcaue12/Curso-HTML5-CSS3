@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+#background{
+    background:url(images/estrada.png) center/cover no-repeat;
+    height: 500px;
+    width: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carro{
+    position: absolute;
+    right: 5px;
+    top: 60px;
+    /* animation: mover 1s infinite linear; */
+}
+
+#carro-2{
+    position: absolute;
+    right: 5px;
+    top: 200px;
+    /* animation: mover 2s infinite linear; */
+}
+
+@keyframes mover {
+    0%{
+        right: 0%;
+    }
+
+    10%{
+        right: 10%;
+
+    }
+
+    20%{
+        right: 20%;
+
+    }
+    30%{
+        right: 30%;
+
+    }
+    40%{
+        right: 40%;
+
+    }
+    50%{
+        right: 50%;
+
+    }
+    60%{
+        right: 60%;
+
+    }
+    70%{
+        right: 70%;
+
+    }
+    80%{
+        right: 80%;
+
+    }
+    90%{
+        right: 95%;
+
+    }
+
+    95%{
+        right: 100%;
+    }
+
+    100%{
+        right: 1%;
+    }
+}
+
+
+#ator{
+    position: absolute;
+    bottom: 5px;
+}
+
+

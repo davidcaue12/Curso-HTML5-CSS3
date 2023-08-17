@@ -35,10 +35,12 @@ header{
 }
 
 #nav-links{
+    justify-content: center;
     display: flex;
-    gap: 30px;
+    gap: 5rem;
     color: black;
     font-size: 1.2rem;
+    font-weight: 300;
 }
 #nav-links a{
     color: black;
@@ -83,7 +85,7 @@ header{
 }
 
 .first .text h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 400;
 }
 
@@ -111,5 +113,77 @@ header{
 #paisage{
     width: 100%;
     padding-top: 60px;
+    object-fit: cover;
+}
+
+#container-left-right{
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    border-right:1px solid;
+    margin-right: 10px;
+    padding-right: 50px;
+}
+
+.left h1{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 3vw;
+    position: relative;
+}
+
+
+.left p{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.right{
+    width: 50%;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: justify;
+    justify-content: center;
+    position: relative;
+}
+
+.right .block{
+    max-width: 290px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: var(--font-secudária);
+}
+
+.right .block .title-block{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color:#232323;
+    
+}
+
+.right .block svg{
+    position: absolute;
+    left: 50px;
+    height: 80px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    #nav-links{
+        display: none;
+    }
 }
 
