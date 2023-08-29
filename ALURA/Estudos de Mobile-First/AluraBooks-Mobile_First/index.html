@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +10,38 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="left">
-                <a href="#"><img src="img/Menu.svg" alt="Menu hamburquer" class="item"></a>
-                <a href="#"><img src="img/Logo.svg" alt="Logo AluraBooks" class="item"></a>
+    <header class="container">
+            <div class="content">
+                <input type="checkbox" id="menu" class="container_botao">
+                <label for="menu">
+                <span class="cabecalho__menu-hamburquer item"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">front-end</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu_link">Design & UX</a>
+                    </li>
+                </ul>
+                <img src="img/Logo.svg" alt="Logo AluraBooks" class="item">
             </div>
-            <div class="right">
+            <div class="content">
                 <a href=""><img src="img/Favoritos.svg" alt="Favoritos" class="item"></a>
                 <a href=""><img src="img/Compras.svg" alt="Compras" class="item"></a>
                 <a href=""><img src="img/Usuario.svg" alt="Meu perfil" class="item"></a>
             </div>
-        </div>
     </header>
-
 </body>
 
 </html>
