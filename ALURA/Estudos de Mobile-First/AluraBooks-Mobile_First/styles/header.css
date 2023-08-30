@@ -39,6 +39,10 @@
     top: 100%;
 }
 
+.container_botao{
+    display: none;
+}
+
 
 .lista-menu__titulo,
 .lista-menu__item{

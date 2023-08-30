@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
+@import url(styles/main.css);
+@import url(styles/header.css);
+
 
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja:#EB9B00;
     --gradiente:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --poppins:'Poppins',Arial,sans-serif;
+    --linear__background:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --poppins:'Poppins',Arial,sans-serif; 
 
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     min-height: 100vh;
     width: 100%;
     
