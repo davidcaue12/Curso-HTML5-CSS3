@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    height: 7vh;
+    background-color: blueviolet;
+}
+
+.fa-bars{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 10vw;
+}
+
+#check{
+    display: none;
+}
+
+.textos{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: blue;
+    padding: 6em 3em;
+}
+
+li{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding: 1rem;    
+}
+
+#check:checked~.textos{
+    display: block;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Primary colors */
+    --dark__cyan:hsl(158, 36%, 37%);
+    --cream:hsl(30, 38%, 92%);
+
+    /* Neutral colors */
+    --very__dark__blue:hsl(212, 21%, 14%);
+    --dark__grayish__blue:hsl(228, 12%, 48%);
+    --white:hsl(0, 0%, 100%);
+
+    /* Typography */
+    /* body copy */
+    --font__size:14px;
+
+    /* Font Montserrat*/
+    --family_montserrat:'Montserrat',sans-serif;
+    --weight__medium:500;
+    --weight__bold:700;
+
+    /* font Fraunces */
+    --family_fraunces:'Fraunces',sans-serif;
+}
+
+body,html{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--cream);
+    
+}
+
+.container{
+    border-radius: 10px;
+    margin: 20px 10px;
+    background-color:var(--white);  
+}
+
+.image{
+    width: 100%;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.sub__titulo{
+    font-family: 'Montserrat';
+    letter-spacing: 6px;
+    font-weight: 500;
+    -webkit-text-fill-color: var(--dark__grayish__blue);
+    text-transform: uppercase;
+}
+
+.titulo{
+    padding:10px 0px;
+    font-size: 2.3rem;
+    font-family: var(--family_fraunces);
+}
+
+.text{
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+    font-family: var(--family_montserrat);
+    -webkit-text-fill-color: var(--dark__grayish__blue);
+}
+
+.price__info{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.price{
+    font-size: 2rem;
+    font-family: var(--family_fraunces);
+    -webkit-text-fill-color: var(--dark__cyan);
+    font-weight: 700;
+}
+
+.price__before{
+    -webkit-text-fill-color: var(--dark__grayish__blue);
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+
+.cart{
+    display: block;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--dark__cyan); 
+    margin: 20px 0px 20px;
+}
+
+.cart:hover{
+    background-color: hsl(158, 35%, 29%);
+}
+
+.cart a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--family_montserrat);
+    position: relative;
+
+}
+
+.cart a::before{
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    left: -30%;
+    background: url(../images/icon-cart.svg) no-repeat;
+}
+

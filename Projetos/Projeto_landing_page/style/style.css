@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../image/BG-academy.jpeg) center/cover;
+    backdrop-filter: blur(2px);
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+
+.nav__mobile{
+    position: relative;
+    
+}
+
+.fa-bars{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 40px;
+}
+
+.links{
+    top: -100%;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.897);
+    backdrop-filter: blur(5px);
+    border-radius:0px 0px 20px 20px ;
+    transition: 100ms all ease;
+    z-index: 10;
+}
+
+.links > a li{
+    color: #f1f1f1;
+    padding: 20px;
+
+}
+
+#close__menu{
+    font-size: 40px;
+    color: #f1f1f1;
+    position: relative;
+    left: 45%;
+}
+
