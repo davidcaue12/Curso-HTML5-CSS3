@@ -21,3 +21,136 @@
     position: initial;
     margin: .5em 0;
 }
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display: flex;
+}
+
+.card{
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.descricao__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descricao__titulo-livro{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto{
+    font-size: 15px;
+}
+
+
+.botoes__item{
+    margin:0 0.5em;
+}
+
+.botoes__ancora{
+    background-color: var(--laranja);
+    padding: 1em 2.7em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.mais__vendidos h2:first-child{
+    color: var(--laranja);
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 27px;
+    background-color: white;
+}
+
+.destaque{
+    display: flex;
+    justify-content: space-between;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+.destaque h2{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.destaque h3{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding: 5px 0;      
+}
+
+.destaque p{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;     
+}
+
+.list__icons{
+    display: flex;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.destaque__modelo{
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque__modelo img{
+    object-fit: cover;
+}
+
+
+
+.saiba__mais a{
+    text-decoration: none ;
+    display: block;
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    margin-top: 15px;
+}
+
+
+
+
