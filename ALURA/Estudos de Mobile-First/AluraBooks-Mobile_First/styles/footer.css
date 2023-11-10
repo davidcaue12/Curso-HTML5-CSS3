@@ -1,0 +1,47 @@
+.cadastro{
+    padding: 20px;
+    
+}
+
+.cadastro__titulo{
+    font-size: 18px;
+    font: var(--poppins);
+    font-weight: 500;
+}
+
+.cadastro__text{
+    font-family: var(--poppins);
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--azul);
+}
+
+.container__span{
+    display: flex;
+    position: relative;
+}
+
+#email__input{
+    border-radius: 24px;
+    padding: 10px 24px 10px 24px;
+    border: none;
+    border: 1px solid;
+    border-color: var(--azul);
+    width: 100%;
+}
+
+#email__input::placeholder{
+    font: var(--poppins);
+    font-weight: 400;
+    font-size: 16px;
+    /* -webkit-text-fill-color: var(--azul); */
+    padding-left: 40px;
+}
+
+#img__email{
+    position: absolute;
+    width: 20px;
+    left: 10%;
+    top: 25%;
+    
+}

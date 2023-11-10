@@ -94,7 +94,7 @@
     margin: 1em;
     padding: 1em;
 }
-.destaque h2{
+.destaque__descricao h2{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
     color: var(--laranja);
     font-size: 16px;
@@ -104,7 +104,7 @@
     text-align: left;
 }
 
-.destaque h3{
+.destaque__descricao h3{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
     color: var(--azul);
     font-size: 18px;
@@ -114,9 +114,10 @@
     padding: 5px 0;      
 }
 
-.destaque p{
+.destaque__descricao p{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    text-align: justify;
+    font-size: 13px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
