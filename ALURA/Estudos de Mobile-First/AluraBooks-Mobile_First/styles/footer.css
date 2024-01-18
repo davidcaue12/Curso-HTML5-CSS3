@@ -6,7 +6,7 @@
 .cadastro__titulo{
     font-size: 18px;
     font: var(--poppins);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .cadastro__text{
@@ -43,5 +43,9 @@
     width: 20px;
     left: 10%;
     top: 25%;
-    
+
+}
+
+.content{
+    margin: 14px;
 }

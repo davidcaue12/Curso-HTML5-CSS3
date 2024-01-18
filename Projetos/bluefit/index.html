@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluefit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <main class="hero">
+        <section class="home-page">
+            <section class="cabecalho"> 
+                <img src="https://bluefit.com.br/themes/bluefit-20/assets/images/icons/logo-white.svg" class="logo-bluefit" alt="Logo Bluefit">
+                <nav class="links">
+                    <img src="https://bluefit.com.br/themes/bluefit-20/assets/images/icons/menu.svg" class="menu-open" alt="Menu-Mobile">
+                    <div class="mobile">
+                        <img src="https://bluefit.com.br/themes/bluefit-20/assets/images/icons/close.svg" alt="">
+                        <li><a href="#">UNIDADES</a></li>
+                        <li><a href="#">MODALIDADES</a></li>
+                        <li><a href="#">ÁREA DO ALUNO</a></li>
+                        <li><a href="#">RELAÇÕES COM INVESTIDORES</a></li>
+                        <li><a href="#">SEJA UM FRANQUEADO</a></li>
+                        <li><a href="#">DNA BLUEFIT</a></li>
+                        <li><a href="#">CONTRATOS</a></li>
+                        <li><a href="#">ATENDIMENTO</a></li>
+                        <li><a href="#">CANAL DE DENÚNCIAS</a></li>
+                    </div>
+                </nav>
+            </section>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="https://bluefit.com.br/storage/app/uploads/public/654/902/ef7/654902ef70dfa271486553.jpg"alt=""></div>
+                    <div class="swiper-slide"><img src="https://bluefit.com.br/storage/app/uploads/public/652/40e/bf5/65240ebf51bfb011544249.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://bluefit.com.br/storage/app/uploads/public/651/d75/db4/651d75db4e74d536870065.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://bluefit.com.br/storage/app/uploads/public/63f/f3d/63a/63ff3d63acda0728403776.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 0,
+            slidesPerView: 1,
+            autoplay: {
+            delay: 4000,
+            },
+            pagination:{
+                el:'.swiper-pagination',
+                type:'bullets',
+            }
+        });
+
+    </script>
+</body>
+</html>
